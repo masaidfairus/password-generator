@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;
+    color: #D5D4D8;
+    font-family: "Inter", sans-serif;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.highlight {
+    color: #10B981;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+
+#btn-primary {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: inherit;
+    border-radius: 5px;
+    border: 0;
+    background: #10B981;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#password-length {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 0;
+    background: #2F3E53;
+    color: #FFFFFF;
+}
+
+.flex {
+    display: flex;
+    gap: 1rem;
+    margin: 35px 0;
+}
+
+.divider {
+    height: 1px;
+    width: 500px;
+    margin: 35px 0;
+    background-color: #2F3E53;
+}
+
+.wrapper-btn {
+    display: flex;
+    gap: 1rem;
+}
+
+.password-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 45px;
+    width: 100%;
+    margin: 0;
+    border-radius: 5px;
+    background: #2F3E53;
+    color: #55F991;
+    font-weight: 500;
+}
